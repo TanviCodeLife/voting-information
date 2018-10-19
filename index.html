@@ -10,36 +10,28 @@
   </head>
   <body>
     <div class="container">
-      <!-- <form id="submit"> -->
-        <!-- <h1>Please Select Your Age:</h1>
-        <div class="custom-control custom-radio">
-          <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
-          <label class="custom-control-label" for="customControlValidation2">Toggle this custom radio</label>
+      <form id="submit">
+        <h1>Please Select Your Age:</h1>
+        <div class="custom-control custom-radio mb-3">
+          <input type="radio" class="custom-control-input" value="17" id="under18" name="radio-stacked" required>
+          <label class="custom-control-label" for="under18">Under 18 years</label>
         </div>
         <div class="custom-control custom-radio mb-3">
-          <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
-          <label class="custom-control-label" for="customControlValidation3">Or toggle this other custom radio</label>
-          <div class="invalid-feedback">More example invalid feedback text</div>
-        </div> -->
-        <!-- <div class="radio custom-control">
-          <label>
-            <input type="radio" name="under18" value="17" checked>
-            Under 18 years
-          </label>
+          <input type="radio" class="custom-control-input" value="19" id="over18" name="radio-stacked" required>
+          <label class="custom-control-label" for="over18">Over 18 years</label>
         </div>
-        <div class="radio custom-control">
-          <label>
-            <input type="radio" name="over18" value="18">
-            18 years and over
-          </label>
-        </div> -->
-        <!-- <button type="submit" class="btn btn-danger">Submit</button>
-      </form> -->
+        <div class="custom-control custom-radio mb-3">
+          <input type="radio" class="custom-control-input" value="18" id="equal18" name="radio-stacked" required>
+          <label class="custom-control-label" for="equal18">18 years</label>
+        </div>
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </form>
+
       <div id="over-18">
         <h1>Voting Information</h1>
         <ul>
           <li><a href="#">Register to Vote</a></li>
-          <li><a href="#">Locate neariest polling location/ballot dropbox</a></li>
+          <li><a href="#">Locate nearest polling location/ballot dropbox</a></li>
         </ul>
       </div>
       <div id="under-18">
